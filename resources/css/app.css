@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'NT Wagner';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../public/fonts/NT\ Wagner.woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

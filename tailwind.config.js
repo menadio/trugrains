@@ -21,14 +21,16 @@ module.exports = {
       'lemon':  '#C3D14A',
       'green': '#88B667',
       'lime': '#F8FFF4',
+      'lime-500': '#DCEDC8',
       'purple':  '#9D2883',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      'black': '#242121'
     },
     extend: {
       backgroundImage: {
-        'tru-recipes': "url('/images/Group 13725.svg')",
-        'tru-recipes-2': "url('/images/Group 13728.svg')",
-        'banner-bg': "url('/images/bannerbg.png')"
+        'tru-recipes': "url('/images/svg/Group 13725.svg')",
+        'tru-recipes-2': "url('/images/svg/Group 13728.svg')",
+        'banner-bg': "url('/images/png/bannerbg.png')"
       }
     },
   },

@@ -27,7 +27,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'tru-recipes': "url('/images/Group 13725.svg')",
-        'tru-recipes-2': "url('/images/Group 13728.svg')"
+        'tru-recipes-2': "url('/images/Group 13728.svg')",
+        'banner-bg': "url('/images/bannerbg.png')"
       }
     },
   },

@@ -1,11 +1,15 @@
-<nav class="mb-20 font-sora font-medium">
+<nav class="py-5 font-sora font-medium">
     <div class="px-[100px]">
         <ul class="flex justify-between place-items-center">
-            <li>Products</li>
+            <li>
+                <a href="{{ route('products') }}">
+                    Products
+                </a>
+            </li>
             <li>About Us</li>
             <li>Tru Recipes</li>
             <li class="mx-[181px]">
-                <a href="#">
+                <a href="{{ route('home') }}">
                     <img src="{{ asset('images/png/trugrain-logo.png') }}" alt="" srcset="">
                 </a>
             </li>

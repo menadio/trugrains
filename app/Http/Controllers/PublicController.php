@@ -10,4 +10,9 @@ class PublicController extends Controller
     {
         return view('home');
     }
+
+    public function products()
+    {
+        return view('products');
+    }
 }

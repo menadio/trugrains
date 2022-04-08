@@ -467,6 +467,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: auto;
     margin-right: auto;
 }
+.mx-\[300px\]{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.mx-\[80px\]{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .mb-20{
     margin-bottom: 5rem;
 }
@@ -547,6 +555,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .-mt-px{
     margin-top: -1px;
+}
+.mb-2{
+    margin-bottom: 0.5rem;
+}
+.mb-8{
+    margin-bottom: 2rem;
+}
+.mb-10{
+    margin-bottom: 2.5rem;
+}
+.mb-\[170px\]{
+    margin-bottom: 170px;
 }
 .flex{
     display: flex;
@@ -660,6 +680,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-\[48px\]{
     gap: 48px;
 }
+.gap-6{
+    gap: 1.5rem;
+}
 .overflow-hidden{
     overflow: hidden;
 }
@@ -697,6 +720,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-black{
     --tw-border-opacity: 1;
     border-color: rgb(36 33 33 / var(--tw-border-opacity));
+}
+.border-orange{
+    --tw-border-opacity: 1;
+    border-color: rgb(226 131 51 / var(--tw-border-opacity));
+}
+.border-lemon{
+    --tw-border-opacity: 1;
+    border-color: rgb(195 209 74 / var(--tw-border-opacity));
+}
+.border-purple{
+    --tw-border-opacity: 1;
+    border-color: rgb(157 40 131 / var(--tw-border-opacity));
+}
+.border-blue{
+    --tw-border-opacity: 1;
+    border-color: rgb(113 187 226 / var(--tw-border-opacity));
 }
 .bg-lime-500{
     --tw-bg-opacity: 1;
@@ -817,6 +856,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
+.py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.py-\[210px\]{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+.px-\[43px\]{
+    padding-left: 43px;
+    padding-right: 43px;
+}
 .pt-\[40px\]{
     padding-top: 40px;
 }
@@ -834,6 +885,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-8{
     padding-top: 2rem;
+}
+.pt-\[210px\]{
+    padding-top: 210px;
 }
 .text-center{
     text-align: center;
@@ -904,6 +958,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-\[86px\]{
     font-size: 86px;
+}
+.text-\[31px\]{
+    font-size: 31px;
+}
+.text-\[32px\]{
+    font-size: 32px;
 }
 .font-medium{
     font-weight: 500;

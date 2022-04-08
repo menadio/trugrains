@@ -22,4 +22,6 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'index')->name('home');
 
     Route::get('products', 'products')->name('products');
+
+    Route::get('about', 'about')->name('about-us');
 });

@@ -15,4 +15,9 @@ class PublicController extends Controller
     {
         return view('products');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
 }

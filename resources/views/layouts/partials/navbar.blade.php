@@ -6,7 +6,11 @@
                     Products
                 </a>
             </li>
-            <li>About Us</li>
+            <li>
+                <a href="{{ route('about-us') }}">
+                    About Us
+                </a>
+            </li>
             <li>Tru Recipes</li>
             <li class="mx-[181px]">
                 <a href="{{ route('home') }}">

@@ -30,7 +30,9 @@ module.exports = {
       backgroundImage: {
         'tru-recipes': "url('/images/svg/Group 13725.svg')",
         'tru-recipes-2': "url('/images/svg/Group 13728.svg')",
-        'banner-bg': "url('/images/png/bannerbg.png')"
+        'banner-bg': "url('/images/png/bannerbg.png')",
+        'about-bg': "url('/images/png/Group 13675@2x.png')",
+        'story-bg': "url('/images/png/Group 13681@2x.png')"
       }
     },
   },

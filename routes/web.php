@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    // return view('welcome');
-    return view('home');
+// Route::get('/', function () {
+//     return view('home');
+// });
+
+Route::controller(PublicController::class)->group(function () {
+    Route::get('/', 'index')->name('home');
+
+    Route::get('products', 'products')->name('products');
+
+    Route::get('about', 'about')->name('about-us');
 });

@@ -52,7 +52,9 @@
                         <p class="mb-[60px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
-                        <button class="px-[42px] py-[21px] uppercase rounded-full border animate-bounce">see details</button>
+                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-orange">
+                            SEE DETAILS
+                        </button>
                     </div>
                 </div>
             </div>
@@ -70,7 +72,9 @@
                             <br>corn, White corn, Soya beans, Crawfish, Dried <br>Shad fish.
                         </p>
 
-                        <button class="px-[42px] py-[21px] uppercase rounded-full border animate-bounce">see details</button>
+                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-lemon">
+                            SEE DETAILS
+                        </button>
                     </div>
                 </div>
             </div>
@@ -88,7 +92,9 @@
                         <p class="mb-[60px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
-                        <button class="px-[42px] py-[21px] uppercase rounded-full border animate-bounce">see details</button>
+                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-purple">
+                            SEE DETAILS
+                        </button>
                     </div>
                 </div>
             </div>
@@ -103,7 +109,9 @@
                         <h2 class="font-wagner font-bold text-[72px]">Rice Cereal</h2>
                         <h3 class="mb-[24px] font-sora font-bold text-[48px]">350g</h3>
                         <p class="mb-[60px] font-sora text-[18px]">A healthy combo of Rice and Soya beans</p>
-                        <button class="px-[42px] py-[21px] uppercase rounded-full border animate-bounce">see details</button>
+                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-blue">
+                            SEE DETAILS
+                        </button>
                     </div>
                 </div>
             </div>
@@ -151,22 +159,6 @@
 
         {{-- stores --}}
         @include('layouts.partials.store')
-        {{-- <section class="px-[138.33px] py-[120px] bg-black">
-            <h2 class="mb-[60px] font-wagner text-[56px] text-white text-center">Where to Buy</h2>
-
-            <div class="mb-20 flex justify-between">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-                <img src="{{ asset('/images/png/logo-1.png') }}" alt="">
-            </div>
-
-            <div class="flex justify-center">
-                <button class="px-9 py-5 font-sora font-medium text-xl bg-white rounded-full">FIND IN OUR STORE</button>
-            </div>
-        </section> --}}
 
         {{-- testimonials --}}
         <section class="py-[120px] bg-lime">

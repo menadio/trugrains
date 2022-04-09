@@ -11,7 +11,9 @@
                     About Us
                 </a>
             </li>
-            <li>Tru Recipes</li>
+            <li>
+                <a href="{{ route('recipes') }}">Tru Recipes</a>
+            </li>
             <li class="mx-[181px]">
                 <a href="{{ route('home') }}">
                     <img src="{{ asset('images/png/trugrain-logo.png') }}" alt="" srcset="">

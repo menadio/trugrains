@@ -25,7 +25,7 @@
                         A 5-minute easy recipe to make our Grandma’s secret recipe of vegan Golden Milk with turmeric,
                         ashwagandha and dashmool – it’s truly a mood boosting cure!
                     </p>
-                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full">
+                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full transition duration-700 ease-in-out delay-150 hover:bg-black hover:text-white hover:scale-95">
                         READ
                     </button>
                 </div>
@@ -42,7 +42,7 @@
                     <h3 class="mb-8 font-wagner font-bold text-2xl text-black cursor-pointer">Strengthen & nourish roots to
                         grow stronger, healthier hair.
                     </h3>
-                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full">
+                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full transition duration-700 ease-in-out delay-150 hover:bg-black hover:text-white hover:scale-95">
                         READ
                     </button>
                 </div>
@@ -53,7 +53,7 @@
                     <h3 class="mb-8 font-wagner font-bold text-2xl text-black cursor-pointer">
                         Best recipe shared by Mama
                     </h3>
-                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full">
+                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full transition duration-700 ease-in-out delay-150 hover:bg-black hover:text-white hover:scale-95">
                         READ
                     </button>
                 </div>
@@ -64,7 +64,7 @@
                     <h3 class="mb-8 font-wagner font-bold text-2xl text-black cursor-pointer">
                         The true meaning of Child time
                     </h3>
-                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full">
+                    <button class="px-[63px] py-[18px] border border-black font-sora text-lg text-black rounded-full transition duration-700 ease-in-out delay-150 hover:bg-black hover:text-white hover:scale-95">
                         READ
                     </button>
                 </div>

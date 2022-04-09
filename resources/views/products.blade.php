@@ -9,17 +9,17 @@
 
     <main class="py-[120px] bg-green">
         {{-- intro --}}
-        <div class="mx-[300px]">
+        <section class="mx-[300px]">
             <p class="mb-12 font-wagner text-center text-[32px] text-white">Trugrains Cereals Are Made With Love From Real
                 Wholesome Grains. We Source Great Quality, Locally Grown Ingredients To Make Your Baby’s Meal Nutritious,
                 Delicious And Fun. It’s All Your Baby Needs In One Little Scoop!</p>
 
             <p class="font-wagner text-center text-[32px] text-white">We’re So Excited To Share This With You! We Hope Your
                 Baby Enjoys It As Much As All Our Kids Have Over The Years.</p>
-        </div>
+        </section>
 
         {{-- products --}}
-        <div class="mx-[80px] pt-[210px]">
+        <section class="mx-[80px] pt-[210px]">
             <div class="mb-[170px]">
                 <div class="mx-[100px] grid grid-cols-2 items-center gap-x-18">
                     <div class="">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     {{-- store --}}

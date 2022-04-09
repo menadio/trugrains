@@ -20,4 +20,9 @@ class PublicController extends Controller
     {
         return view('about');
     }
+
+    public function recipes()
+    {
+        return view('recipes');
+    }
 }

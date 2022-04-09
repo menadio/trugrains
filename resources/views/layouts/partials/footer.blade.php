@@ -54,8 +54,18 @@
 </section>
 
 <footer class="pt-[120px] pb-[60px] bg-lime">
-    <div class="mb-[120px] flex justify-center">
-        <img src="{{ asset('images/png/trugrain-logo@2x.png') }}" alt="" srcset="">
+    <div class="flex justify-between">
+        <div>
+            <img src="{{ asset('images/png/noun-grain-4060474.png') }}" alt="" class="animate-pulse">
+        </div>
+        <div>
+            <a href="{{ route('home') }}">
+                <img src="{{ asset('images/png/trugrain-logo@2x.png') }}" alt="Trugrains Logo" class="hover:animate-bounce">
+            </a>
+        </div>
+        <div>
+            <img src="{{ asset('images/png/noun-grain-4060474.png') }}" alt="" class="-rotate-90 animate-pulse">
+        </div>
     </div>
 
     <div class="mb-[30px] mx-[102px] flex items-end">
@@ -82,7 +92,9 @@
             </div>
             <div>
                 <ul class="flex justify-between font-sora font-semibold text-black text-base">
-                    <li>Contact Us</li>
+                    <li>
+                        <a href="{{ route('contact') }}">Contact Us</a>
+                    </li>
                     <li>Terms And Conditions</li>
                     <li>Privacy Policy</li>
                 </ul>

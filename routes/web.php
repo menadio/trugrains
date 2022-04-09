@@ -27,5 +27,7 @@ Route::controller(PublicController::class)->group(function () {
 
     Route::get('recipes', 'recipes')->name('recipes');
 
+    Route::get('blog', 'blog')->name('blog');
+
     Route::get('contact', 'contact')->name('contact');
 });

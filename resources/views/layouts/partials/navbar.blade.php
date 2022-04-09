@@ -21,7 +21,9 @@
             </li>
             <li>The Store</li>
             <li>Blog</li>
-            <li>Contact</li>
+            <li>
+                <a href="{{ route('contact') }}">Contact</a>
+            </li>
         </ul>
     </div>
 </nav>

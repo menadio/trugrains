@@ -479,6 +479,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 120px;
     margin-bottom: 120px;
 }
+.my-\[100px\]{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .mb-\[30px\]{
     margin-bottom: 30px;
 }
@@ -614,6 +618,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-auto{
     width: auto;
 }
+.w-full{
+    width: 100%;
+}
 .max-w-6xl{
     max-width: 72rem;
 }
@@ -692,6 +699,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     -moz-column-gap: 150px;
          column-gap: 150px;
 }
+.gap-x-8{
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+}
+.gap-x-12{
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+}
+.gap-x-14{
+    -moz-column-gap: 3.5rem;
+         column-gap: 3.5rem;
+}
+.gap-x-16{
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+}
 .overflow-hidden{
     overflow: hidden;
 }
@@ -726,6 +749,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-t{
     border-top-width: 1px;
 }
+.border-t-2{
+    border-top-width: 2px;
+}
 .border-black{
     --tw-border-opacity: 1;
     border-color: rgb(36 33 33 / var(--tw-border-opacity));
@@ -745,6 +771,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-blue{
     --tw-border-opacity: 1;
     border-color: rgb(113 187 226 / var(--tw-border-opacity));
+}
+.border-t-black{
+    --tw-border-opacity: 1;
+    border-top-color: rgb(36 33 33 / var(--tw-border-opacity));
 }
 .bg-green{
     --tw-bg-opacity: 1;
@@ -886,6 +916,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+.py-\[30px\]{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .pt-\[40px\]{
     padding-top: 40px;

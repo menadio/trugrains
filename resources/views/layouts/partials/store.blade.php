@@ -11,6 +11,6 @@
     </div>
 
     <div class="flex justify-center">
-        <button class="px-9 py-5 font-sora font-medium text-xl bg-white rounded-full">FIND IN OUR STORE</button>
+        <button class="px-9 py-5 font-sora font-medium text-xl bg-white rounded-full animate-bounce">FIND IN OUR STORE</button>
     </div>
 </section>

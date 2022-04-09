@@ -26,4 +26,6 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('about', 'about')->name('about-us');
 
     Route::get('recipes', 'recipes')->name('recipes');
+
+    Route::get('contact', 'contact')->name('contact');
 });

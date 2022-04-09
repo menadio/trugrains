@@ -25,4 +25,9 @@ class PublicController extends Controller
     {
         return view('recipes');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }

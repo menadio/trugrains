@@ -719,6 +719,38 @@ Ensure the default browser behavior of the `hidden` attribute.
     -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
             animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
+@-webkit-keyframes bounce{
+
+    0%, 100%{
+        transform: translateY(-25%);
+        -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+                animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50%{
+        transform: none;
+        -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+                animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+@keyframes bounce{
+
+    0%, 100%{
+        transform: translateY(-25%);
+        -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+                animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50%{
+        transform: none;
+        -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+                animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+.animate-bounce{
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+}
 .cursor-pointer{
     cursor: pointer;
 }
@@ -1195,20 +1227,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .drop-shadow-lg{
     --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-@-webkit-keyframes bounce{
-
-    0%, 100%{
-        transform: translateY(-25%);
-        -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-                animation-timing-function: cubic-bezier(0.8,0,1,1);
-    }
-
-    50%{
-        transform: none;
-        -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-                animation-timing-function: cubic-bezier(0,0,0.2,1);
-    }
 }
 @keyframes bounce{
 

@@ -1,7 +1,11 @@
 <?php
 
-use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\PublicController;
+use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +18,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('home');
-// });
+
+
+Route::prefix('admin')->group(function () {
+    Route::get('dashboard', function () {
+        return view('admin.dashboard');
+    })->name('dashboard');
+    
+    Route::controller(AuthController::class)->group(function () {
+        Route::get('login', 'login')->name('login');
+    });
+
+    Route::resources([
+        'products'  => ProductController::class,
+        'recipes'   => RecipeController::class,
+        'posts'     => PostController::class
+    ], ["as" => "admin"]);
+});
+
 
 Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'index')->name('home');

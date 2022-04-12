@@ -18,6 +18,6 @@ jobs:
     - run: php -r "file_exists('.env') || copy('.env.production', '.env');"
     - run: php artisan config:cache
     - run: php artisan route:cache
-    - name: Set environment
-      env:
-        APP_KEY: ${{ secrets.TRUGRAINS_APP_KEY }}
+      
+env:
+  APP_KEY: ${{ secrets.TRUGRAINS_APP_KEY }}

@@ -14,6 +14,12 @@ jobs:
       with:
         php-version: '8.0'
     - uses: actions/checkout@v3
+    - name: Install dependencies
     - run: composer install
+    - name: Copy .env
+    - run: php -r "file_exists('.env') || copy('.env.production', '.env');"
     - run: php artisan config:cache
     - run: php artisan route:cache
+    
+    env:
+      APP_KEY: ${{ secrets.APP_KEY }}

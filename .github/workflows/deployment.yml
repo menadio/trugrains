@@ -15,11 +15,13 @@ jobs:
         php-version: '8.0'
     - uses: actions/checkout@v3
     - name: Install dependencies
-    - run: composer install
+      run: composer install
     - name: Copy .env
-    - run: php -r "file_exists('.env') || copy('.env.production', '.env');"
-    - run: php artisan config:cache
-    - run: php artisan route:cache
-    
-    env:
-      APP_KEY: ${{ secrets.APP_KEY }}
+      run: php -r "file_exists('.env') || copy('.env.production', '.env');"
+    - name: Cache configuration
+      run: php artisan config:cache
+    - name: Cache routes
+      run: php artisan route:cache
+    - name: Set environment
+      env:
+        APP_KEY: ${{ secrets.TRUGRAINS_APP_KEY }}

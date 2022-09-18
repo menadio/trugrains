@@ -25,4 +25,14 @@ class ProductDetailsController extends Controller
     {
         return view('product-details.multigrain');
     }
+
+    /**
+     * Display sweat potatoe cereal product details
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function potatoe()
+    {
+        return view('product-details.sweet-potatoe-cereal');
+    }
 }

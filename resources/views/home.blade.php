@@ -95,10 +95,10 @@
                         <p class="mb-[60px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
-                        <button
+                        <a href="{{ route('product.potatoe') }}"
                             class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-purple">
                             SEE DETAILS
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,8 @@
                 </div>
             </div>
 
-            <p class="mt-20 font-sora font-semibold text-white text-center underline cursor-pointer">See all our recipes
+            <p class="mt-20 font-sora font-semibold text-white text-center underline cursor-pointer">See all our
+                recipes
             </p>
         </section>
 

@@ -2,11 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\RecipeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProductDetailsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +27,7 @@ Route::prefix('admin')->group(function () {
     // Route::get('dashboard', function () {
     //     return view('admin.dashboard');
     // })->name('dashboard');
-    
+
     Route::controller(AuthController::class)->group(function () {
         Route::get('login', 'login')->name('login');
     });
@@ -51,4 +52,8 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('blog', 'blog')->name('blog');
 
     Route::get('contact', 'contact')->name('contact');
+});
+
+Route::controller(ProductDetailsController::class)->group(function () {
+    Route::get('products/nutty-grains', 'nutty')->name('product.nutty');
 });

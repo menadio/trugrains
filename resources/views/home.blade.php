@@ -52,9 +52,10 @@
                         <p class="mb-[60px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
-                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-orange">
+                        <a href="{{ route('product.nutty') }}"
+                            class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-orange">
                             SEE DETAILS
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -72,7 +73,8 @@
                             <br>corn, White corn, Soya beans, Crawfish, Dried <br>Shad fish.
                         </p>
 
-                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-lemon">
+                        <button
+                            class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-lemon">
                             SEE DETAILS
                         </button>
                     </div>
@@ -87,12 +89,14 @@
 
                     <div class="pl-20 text-white">
                         <h2 class="font-wagner font-bold text-[72px] tracking-normal leading-[4.5rem]">Sweet Potato
-                            <br>cereal</h2>
+                            <br>cereal
+                        </h2>
                         <h3 class="mb-[24px] font-sora font-bold text-[48px]">350g</h3>
                         <p class="mb-[60px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
-                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-purple">
+                        <button
+                            class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-purple">
                             SEE DETAILS
                         </button>
                     </div>
@@ -109,7 +113,8 @@
                         <h2 class="font-wagner font-bold text-[72px]">Rice Cereal</h2>
                         <h3 class="mb-[24px] font-sora font-bold text-[48px]">350g</h3>
                         <p class="mb-[60px] font-sora text-[18px]">A healthy combo of Rice and Soya beans</p>
-                        <button class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-blue">
+                        <button
+                            class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-blue">
                             SEE DETAILS
                         </button>
                     </div>
@@ -177,7 +182,8 @@
 
                     <div class="grid grid-cols-2 gap-4">
                         <div>
-                            <p class="mb-[30px] font-wagner text-3xl">My son was having a hard time adjusting to solids,
+                            <p class="mb-[30px] font-wagner text-3xl">My son was having a hard time adjusting to
+                                solids,
                                 but he’s really loving the Trugrains cereal.</p>
                             <p class="font-sora font-medium  text-lg text-gray">— Sandra, Surulere</p>
                         </div>

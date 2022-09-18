@@ -33,12 +33,14 @@
                             <br>White corn, Soya beans, Crawfish, Dried Shad <br>fish and Peanuts.
                         </p>
                         <div class="flex gap-6">
-                            <button class="px-[43px] py-[21px] bg-orange font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
+                            <button
+                                class="px-[43px] py-[21px] bg-orange font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
                                 BUY NOW
                             </button>
-                            <button class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-orange transition duration-500 ease-in hover:bg-orange">
+                            <a href="{{ route('product.nutty') }}"
+                                class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-orange transition duration-500 ease-in hover:bg-orange">
                                 SEE DETAILS
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -58,10 +60,12 @@
                         </p>
 
                         <div class="flex gap-6">
-                            <button class="px-[43px] py-[21px] bg-lemon font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
+                            <button
+                                class="px-[43px] py-[21px] bg-lemon font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
                                 BUY NOW
                             </button>
-                            <button class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-lemon transition duration-500 ease-in hover:bg-lemon">
+                            <button
+                                class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-lemon transition duration-500 ease-in hover:bg-lemon">
                                 SEE DETAILS
                             </button>
                         </div>
@@ -85,10 +89,12 @@
                         </p>
 
                         <div class="flex gap-6">
-                            <button class="px-[43px] py-[21px] bg-purple font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
+                            <button
+                                class="px-[43px] py-[21px] bg-purple font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
                                 BUY NOW
                             </button>
-                            <button class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-purple transition duration-500 ease-in hover:bg-purple">
+                            <button
+                                class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-purple transition duration-500 ease-in hover:bg-purple">
                                 SEE DETAILS
                             </button>
                         </div>
@@ -108,10 +114,12 @@
                         <p class="mb-[60px] font-sora text-[18px]">A healthy combo of Rice and Soya beans</p>
 
                         <div class="flex gap-6">
-                            <button class="px-[43px] py-[21px] bg-blue font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
+                            <button
+                                class="px-[43px] py-[21px] bg-blue font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
                                 BUY NOW
                             </button>
-                            <button class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-blue transition duration-500 ease-in hover:bg-blue">
+                            <button
+                                class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-blue transition duration-500 ease-in hover:bg-blue">
                                 SEE DETAILS
                             </button>
                         </div>

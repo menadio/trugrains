@@ -15,4 +15,14 @@ class ProductDetailsController extends Controller
     {
         return view('product-details.nutty');
     }
+
+    /**
+     * Display multi grain product details
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function multigrain()
+    {
+        return view('product-details.multigrain');
+    }
 }

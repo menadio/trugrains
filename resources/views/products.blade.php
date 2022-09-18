@@ -64,10 +64,10 @@
                                 class="px-[43px] py-[21px] bg-lemon font-sora text-lg text-white rounded-full transition duration-500 hover:scale-x-105">
                                 BUY NOW
                             </button>
-                            <button
+                            <a href="{{ route('product.multigrain') }}"
                                 class="px-[43px] py-[21px] font-sora text-lg rounded-full border border-lemon transition duration-500 ease-in hover:bg-lemon">
                                 SEE DETAILS
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

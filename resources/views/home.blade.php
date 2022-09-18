@@ -73,10 +73,10 @@
                             <br>corn, White corn, Soya beans, Crawfish, Dried <br>Shad fish.
                         </p>
 
-                        <button
+                        <a href="{{ route('product.multigrain') }}"
                             class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-lemon">
                             SEE DETAILS
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

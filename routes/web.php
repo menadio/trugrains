@@ -56,4 +56,6 @@ Route::controller(PublicController::class)->group(function () {
 
 Route::controller(ProductDetailsController::class)->group(function () {
     Route::get('products/nutty-grains', 'nutty')->name('product.nutty');
+
+    Route::get('products/multi-grain', 'multigrain')->name('product.multigrain');
 });

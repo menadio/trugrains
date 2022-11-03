@@ -12,7 +12,11 @@
     </header>
 
     <main class="">
-        {{-- recipes --}}
+        <h2 class="mx-[100px] py-[80px] mb-[30px] font-wagner font-bold text-6xl text-black text-center">
+            Sit tight moms, we are cooking something special just for your babies.
+        </h2>
+
+        {{-- recipes
         <section class="py-[120px] bg-orange">
             <div class="mx-[200px] grid grid-cols-2 gap-x-[150px] font-wagner font-bold text-white text-[36px]">
                 <div class="mb-[120px]">
@@ -35,7 +39,7 @@
                     <h2>Apple, Carrot Puree</h2>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         @include('layouts.partials.store')
     </main>

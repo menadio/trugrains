@@ -35,4 +35,9 @@ class PublicController extends Controller
     {
         return view('blog');
     }
+
+    public function store()
+    {
+        return view('store');
+    }
 }

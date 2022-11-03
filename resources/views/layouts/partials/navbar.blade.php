@@ -14,12 +14,14 @@
             <li class="hover:animate-bounce">
                 <a href="{{ route('recipes') }}">Tru Recipes</a>
             </li>
-            <li class="mx-[181px] hover:animate-bounce">
+            <li class="mx-[181px] animate-bounce">
                 <a href="{{ route('home') }}">
                     <img src="{{ asset('images/png/trugrain-logo.png') }}" alt="Trugrains logo" class="">
                 </a>
             </li>
-            <li class="hover:animate-bounce">The Store</li>
+            <li class="hover:animate-bounce">
+                <a href="{{ route('store') }}">The Store</a>
+            </li>
             <li class="hover:animate-bounce">
                 <a href="{{ route('blog') }}">Blog</a>
             </li>

@@ -83,7 +83,7 @@
             <div class="mb-[60px] flex gap-8">
                 <div class="flex items-center font-sora font-medium text-base text-black">
                     <img src="{{ asset('images/png/instagram.png') }}" alt="" srcset="" class="mr-2">
-                    Instagram
+                    <a href="https://www.instagram.com/trugrains/" target="_blank">Instagram</a>
                 </div>
                 <div class="flex items-center font-sora font-medium text-base text-black">
                     <img src="{{ asset('images/png/instagram.png') }}" alt="" srcset="" class="mr-2">
@@ -95,8 +95,8 @@
                     <li>
                         <a href="{{ route('contact') }}">Contact Us</a>
                     </li>
-                    <li>Terms And Conditions</li>
-                    <li>Privacy Policy</li>
+{{--                    <li>Terms And Conditions</li>--}}
+{{--                    <li>Privacy Policy</li>--}}
                 </ul>
             </div>
         </div>

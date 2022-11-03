@@ -113,10 +113,10 @@
                         <h2 class="font-wagner font-bold text-[72px]">Rice Cereal</h2>
                         <h3 class="mb-[24px] font-sora font-bold text-[48px]">350g</h3>
                         <p class="mb-[60px] font-sora text-[18px]">A healthy combo of Rice and Soya beans</p>
-                        <button
+                        <a href="{{ route('product.rice') }}"
                             class="px-[42px] py-[18px] rounded-full border animate-bounce transition-colors duration-500 ease-in  hover:animate-none hover:bg-white hover:text-blue">
                             SEE DETAILS
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
         </section>
 
         {{-- recipes --}}
-        <section class="px-[100px] py-[120px] bg-green">
+        {{--<section class="px-[100px] py-[120px] bg-green">
             <div class="py-[80px] bg-tru-recipes bg-top bg-no-repeat">
                 <h2 class="mb-9 font-wagner font-bold text-white text-8xl text-center">Tru <br>Recipes</h2>
                 <p class="font-sora text-center text-white text-[21px]">Take a look at the keyhole of our Tru kitchen!
@@ -161,7 +161,7 @@
             <p class="mt-20 font-sora font-semibold text-white text-center underline cursor-pointer">See all our
                 recipes
             </p>
-        </section>
+        </section> --}}
 
         {{-- stores --}}
         @include('layouts.partials.store')
@@ -183,10 +183,8 @@
 
                     <div class="grid grid-cols-2 gap-4">
                         <div>
-                            <p class="mb-[30px] font-wagner text-3xl">My son was having a hard time adjusting to
-                                solids,
-                                but he’s really loving the Trugrains cereal.</p>
-                            <p class="font-sora font-medium  text-lg text-gray">— Sandra, Surulere</p>
+                            <p class="mb-[30px] font-wagner text-3xl">We have tasted the Multigrain. Happy that my baby finished his meal portion for the first time today. Thanks so much Trugrains.</p>
+{{--                            <p class="font-sora font-medium  text-lg text-gray">— Sandra, Surulere</p>--}}
                         </div>
 
                         <div>
@@ -207,9 +205,8 @@
 
                     <div class="grid grid-cols-2 gap-4">
                         <div>
-                            <p class="mb-[30px] font-wagner text-3xl">My princess has been eating Trugrain since she
-                                turned 6 months. Now she is 15 months and still loves her Trugrain</p>
-                            <p class="font-sora font-medium  text-lg text-gray">— Mercy, Abuja</p>
+                            <p class="mb-[30px] font-wagner text-3xl">My niece is a picky eater but since we started giving her Trugrains, to our greatest surprise she loved it and has been eating well.</p>
+{{--                            <p class="font-sora font-medium  text-lg text-gray">— Mercy, Abuja</p>--}}
                         </div>
 
                         <div>
@@ -222,7 +219,7 @@
         </section>
 
         {{-- blog --}}
-        <section class="py-[120px] bg-lime">
+        {{-- <section class="py-[120px] bg-lime">
             <div class="mx-[100px] mb-[60px] flex justify-between items-center">
                 <h2 class="font-wagner text-black">
                     <span class="text-4xl">From Our</span>
@@ -259,7 +256,7 @@
                     </h3>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </main>
 
     @include('layouts.partials.footer')

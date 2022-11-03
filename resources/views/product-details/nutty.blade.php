@@ -41,10 +41,7 @@
 
             {{-- image --}}
             <div>
-                <h2 class="font-wagner font-bold text-[72px]">Nutty grains</h2>
-                <p class="mt-[24px] font-sora text-[18px]">A rich blend of Millet, Guinea corn, Yellow corn,
-                    White corn, Soya beans, Crawfish, Dried Shad fish and Peanuts.
-                </p>
+                <img src="{{ asset('images/png/nuttygrain_2x.png') }}" class="max-w-md">
             </div>
 
             {{-- price --}}
@@ -56,7 +53,7 @@
         </section>
 
         {{-- testimonials --}}
-        <section class="mt-[60px] text-white">
+        {{-- <section class="mt-[60px] text-white">
             <h2 class="mb-[120px] font-wagner text-5xl">Reviews</h2>
 
             <div class="grid grid-cols-2 gap-6">
@@ -107,7 +104,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </main>
 
     {{-- store --}}

@@ -35,4 +35,14 @@ class ProductDetailsController extends Controller
     {
         return view('product-details.sweet-potatoe-cereal');
     }
+
+    /**
+     * Display rice cereal product details
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function rice()
+    {
+        return view('product-details.rice-cereal');
+    }
 }

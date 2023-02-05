@@ -1,8 +1,8 @@
-<section class="py-[120px] bg-lime">
-    <h2 class="mb-[120px] font-wagner text-black text-5xl text-center">Real Words from Real Trugrain Mums</h2>
+<section class="px-6 md:px-12 lg:px-8 py-[120px] bg-lime">
+    <h2 class="mb-[120px] font-wagner text-black text-2xl lg:text-5xl text-center">Real Words from Real Trugrain Mums</h2>
 
-    <div class="flex gap-8">
-        <div class="ml-[100px] w-5/6">
+    <div class="lg:flex gap-8">
+        <div class="lg:ml-[100px] lg:w-5/6">
             <div class="mb-[30px]">
                 <svg class="" xmlns="http://www.w3.org/2000/svg" width="96" height="65.842"
                     viewBox="0 0 96 65.842">
@@ -14,9 +14,9 @@
 
             <div class="grid grid-cols-2 gap-4">
                 <div>
-                    <p class="mb-[30px] font-wagner text-3xl">My son was having a hard time adjusting to solids,
+                    <p class="mb-[30px] font-wagner text-base md:text-3xl">My son was having a hard time adjusting to solids,
                         but he’s really loving the Trugrains cereal.</p>
-                    <p class="font-sora font-medium  text-lg text-gray">— Sandra, Surulere</p>
+                    <p class="font-sora font-medium text-base md:text-lg text-gray">— Sandra, Surulere</p>
                 </div>
 
                 <div>
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="ml-[100px] w-5/6">
+        <div class="lg:ml-[100px] lg:w-5/6">
             <div class="mb-[30px]">
                 <svg class="" xmlns="http://www.w3.org/2000/svg" width="96" height="65.842"
                     viewBox="0 0 96 65.842">
@@ -37,9 +37,9 @@
 
             <div class="grid grid-cols-2 gap-4">
                 <div>
-                    <p class="mb-[30px] font-wagner text-3xl">My princess has been eating Trugrain since she
+                    <p class="mb-[30px] font-wagner text-base md:text-3xl">My princess has been eating Trugrain since she
                         turned 6 months. Now she is 15 months and still loves her Trugrain</p>
-                    <p class="font-sora font-medium  text-lg text-gray">— Mercy, Abuja</p>
+                    <p class="font-sora font-medium text-base md:text-lg text-gray">— Mercy, Abuja</p>
                 </div>
 
                 <div>

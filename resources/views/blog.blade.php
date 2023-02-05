@@ -10,9 +10,13 @@
         </h2>
     </header>
 
-    <main class="mx-[100px]">
+    <main class="mx-[100px] py-[80px]">
+        <h2 class="mb-[30px] font-wagner font-bold text-6xl text-black text-center">
+            Sit tight moms, we are cooking something special just for you.
+        </h2>
+
         {{-- most recent --}}
-        <section class="px-[100px]">
+        {{-- <section class="px-[100px]">
             <div class="flex gap-[90px] items-center">
                 <img src="{{ asset('images/png/Union 1.png') }}" alt="" class="rounded-t-full">
 
@@ -69,6 +73,6 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </main>
 @endsection

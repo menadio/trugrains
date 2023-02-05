@@ -1,22 +1,22 @@
 @extends('layouts.public')
 
 @section('content')
-    <header class="py-20">
-        <h2 class="mb-[30px] font-wagner font-bold text-8xl text-black text-center">
+    <header class="mx-6 md:mx-[50px] lg:mx-[100px] lg:py-20">
+        <h2 class="mb-[30px] font-wagner font-bold text-6xl md:text-8xl text-black text-center">
             Contact us
         </h2>
     </header>
 
-    <main class="mx-[100px] my-[100px]">
+    <main class="mx-6 md:mx-[50px] lg:mx-[100px] my-[100px]">
         {{-- contact --}}
         <section class="mb-[120px]">
-            <div class="grid grid-cols-3 gap-x-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:gap-x-16">
                 <div class="py-[30px] border-t-black border-t-2">
                     <h2 class="mb-[30px] font-wagner font-bold text-4xl text-black">
                         General Enquiry
                     </h2>
                     <p class="font-sora font-medium text-black">info@trugrains.com</p>
-                    <p class="font-sora font-medium text-black">514 825-4505</p>
+                    <p class="font-sora font-medium text-black">(+234) 8181022210</p>
                 </div>
 
                 <div class="py-[30px] border-t-black border-t-2">
@@ -24,7 +24,7 @@
                         Partnerships
                     </h2>
                     <p class="font-sora font-medium text-black">brand@trugrains.com</p>
-                    <p class="font-sora font-medium text-black">514 825-4505</p>
+                    <p class="font-sora font-medium text-black">(+234) 8181022210</p>
                 </div>
 
                 <div class="py-[30px] border-t-black border-t-2">
@@ -32,7 +32,7 @@
                         Press
                     </h2>
                     <p class="font-sora font-medium  text-black">press@trugrains.com</p>
-                    <p class="font-sora font-medium  text-black">514 825-4505</p>
+                    <p class="font-sora font-medium  text-black">(+234) 8181022210</p>
                 </div>
             </div>
         </section>
@@ -41,12 +41,12 @@
         <section class="mb-[120px]">
             <h3 class="mb-[30px] font-wagner font-bold text-4xl text-black">Have A Question? We Would Love To Help!</h3>
             <p class="mb-[30px] font-sora text-black">
-                If you have any queries about an order, want to know more about our products, or our brand, please get 
-                <br>in touch. Have you had a look at our FAQ? We are constantly updating it, so your answer might be there 
+                If you have any queries about an order, want to know more about our products, or our brand, please get
+                <br>in touch. Have you had a look at our FAQ? We are constantly updating it, so your answer might be there
                 <br>already!
             </p>
             <p class="font-sora text-black">
-                You can also type your question in our Help Chat (at the bottom right corner of the home page) or email 
+                You can also type your question in our Help Chat (at the bottom right corner of the home page) or email
                 <br>us at support@trugrains.com.
             </p>
         </section>
@@ -56,10 +56,10 @@
             <h3 class="mb-[30px] font-wagner font-bold text-4xl text-black">Address</h3>
             <p class="font-sora font-medium">Trugrains</p>
             <p class="font-sora font-medium">
-                5A Little Road, Sabo, 
-                <br>Yaba, Lagos
+                5a Little Road, Sabo.
+                <br>Yaba, Lagos.
             </p>
-            <p class="font-sora font-medium">+234 803 379 7112, +234 803 379 7112</p>
+            <p class="font-sora font-medium">(+234) 8181022210</p>
         </section>
 
         {{-- map --}}

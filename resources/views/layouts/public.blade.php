@@ -15,7 +15,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-lime">
+<body class="bg-lime w-full">
     @include('layouts.partials.navbar')
 
     @yield('content')

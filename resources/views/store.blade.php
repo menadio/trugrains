@@ -1,16 +1,16 @@
 @extends('layouts.public')
 
 @section('content')
-    <header class="py-20">
-        <h2 class="mb-[30px] font-wagner font-bold text-8xl text-black text-center">
+    <header class="py-4 md:py-20">
+        <h2 class="font-wagner font-bold text-4xl md:text-8xl text-black text-center">
             List of Stockist
         </h2>
     </header>
 
-    <main class="mx-[100px] my-[100px]">
+    <main class="mx-12 md:mx-[100px] my-[100px]">
         {{-- stockist list --}}
         <section class="mb-[120px]">
-            <div class="grid grid-cols-3 gap-x-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 md:gap-x-16">
                 <div class="py-[30px] border-t-black border-t-2">
                     <div>
                     <h2 class="mb-[30px] font-wagner font-bold text-4xl text-black">

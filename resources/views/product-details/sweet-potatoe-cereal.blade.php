@@ -1,31 +1,31 @@
 @extends('layouts.public')
 
 @section('content')
-    <main class="px-[100px] py-[120px] bg-purple">
+    <main class="px-4 lg:px-[100px] py-[120px] bg-purple">
         {{-- products details --}}
-        <section class="flex flex-row gap-4">
+        <section class="lg:flex lg:flex-row lg:gap-4">
             {{-- details --}}
             <div class="text-white col-span-3">
                 <div class="mb-20">
-                    <h2 class="font-wagner font-bold text-[72px]">Sweet Potatoe cereal</h2>
+                    <h2 class="font-wagner font-bold text-4xl lg:text-[72px]">Sweet Potatoe cereal</h2>
                     <p class="mt-6 font-sora text-[18px]">A sweet combo of Sweet Potatoes and Guinea corn.
                     </p>
                 </div>
 
                 <div class="mb-20">
-                    <h2 class="font-wagner font-bold text-5xl">Age</h2>
+                    <h2 class="font-wagner font-bold text-4xl lg:text-5xl">Age</h2>
                     <p class="mt-6 font-sora text-[16px]">Suitable for toddlers and babies from 6 months
                     </p>
                 </div>
 
                 <div class="mb-20">
-                    <h2 class="font-wagner font-bold text-5xl">Allergy Caution</h2>
+                    <h2 class="font-wagner font-bold text-4xl lg:text-5xl">Allergy Caution</h2>
                     <p class="mt-6 font-sora text-[16px]">Not suitable for babies with soy and nut allergies.
                     </p>
                 </div>
 
                 <div class="mb-20">
-                    <h2 class="font-wagner font-bold text-5xl">Description</h2>
+                    <h2 class="font-wagner font-bold text-4xl lg:text-5xl">Description</h2>
                     <ul class="list-none divide-y divide-white">
                         <li class="py-4"></li>
                         <li class="py-4">An excellent choice for Picky eaters and suitable for weight gain
@@ -43,12 +43,12 @@
 
             {{-- image --}}
             <div>
-                <img src="{{ asset('images/png/sweetpotatoe_2x.png') }}" class="max-w-md">
+                <img src="{{ asset('images/png/sweetpotatoe_2x.png') }}" class="lg:max-w-md">
             </div>
 
             {{-- price --}}
             <div class="text-white">
-                <h2 class="font-wagner font-bold text-[72px]">&#8358;1,500.00</h2>
+                <h2 class="font-wagner font-bold text-5xl lg:text-[72px]">&#8358;1,500.00</h2>
                 <h3 class="mt-[24px] font-sora text-2xl">350g
                 </h3>
             </div>
@@ -59,5 +59,5 @@
     @include('layouts.partials.store')
 
     {{-- blog --}}
-    @include('layouts.partials.blog')
+{{--    @include('layouts.partials.blog')--}}
 @endsection

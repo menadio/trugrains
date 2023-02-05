@@ -1,16 +1,16 @@
 @extends('layouts.public')
 
 @section('content')
-    <header class="py-20">
-        <h2 class="mb-[30px] font-wagner font-bold text-8xl text-black text-center">
+    <header class="mx-6 md:mx-[50px] lg:mx-[100px] lg:py-20">
+        <h2 class="mb-[30px] font-wagner font-bold text-6xl md:text-8xl text-black text-center">
             Contact us
         </h2>
     </header>
 
-    <main class="mx-[100px] my-[100px]">
+    <main class="mx-6 md:mx-[50px] lg:mx-[100px] my-[100px]">
         {{-- contact --}}
         <section class="mb-[120px]">
-            <div class="grid grid-cols-3 gap-x-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:gap-x-16">
                 <div class="py-[30px] border-t-black border-t-2">
                     <h2 class="mb-[30px] font-wagner font-bold text-4xl text-black">
                         General Enquiry
@@ -56,8 +56,8 @@
             <h3 class="mb-[30px] font-wagner font-bold text-4xl text-black">Address</h3>
             <p class="font-sora font-medium">Trugrains</p>
             <p class="font-sora font-medium">
-                270a Corporation Drive, Dolphin Estate.
-                <br>Ikoyi, Lagos.
+                5a Little Road, Sabo.
+                <br>Yaba, Lagos.
             </p>
             <p class="font-sora font-medium">(+234) 8181022210</p>
         </section>

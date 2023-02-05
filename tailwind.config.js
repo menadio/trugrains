@@ -23,8 +23,7 @@ module.exports = {
       'lime': '#F8FFF4',
       'lime-500': '#DCEDC8',
       'purple':  '#9D2883',
-      'white': '#FFFFFF',
-      'black': '#242121'
+      'white': '#FFFFFF'
     },
     extend: {
       backgroundImage: {
